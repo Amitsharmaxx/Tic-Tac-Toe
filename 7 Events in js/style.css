@@ -1,0 +1,9 @@
+div{
+    background-color: red;
+    height: 100px;
+    width: 170px;
+    border: 2px solid black;
+    margin: 2px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

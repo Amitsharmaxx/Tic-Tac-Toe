@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: #567568;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    height: 70vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+    margin-bottom: 40px;
+}
+
+.box {
+    justify-content: center;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    font-size: 9vmin;
+    color: #b0413e;
+    background-color: #c9d5b5;
+    border-color: black;
+    border-width: 3px;
+}
+
+/* #reset {
+    position: absolute;
+    padding: 8px;
+    margin: 3px;
+    font-size: 1.1rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    bottom: 20%;
+
+    right: 630px;
+
+} */
+
+/* #new-btn {
+    position: absolute;
+    padding: 9px;
+    margin: 4px;
+    font-size: 1.1rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    bottom: 20%;
+    left: 39%;
+} */
+
+
+
+#msg {
+    color: white;
+    font-size: 5vmin;
+}
+
+.msg-container {
+    height: 5vmin;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.hide {
+    display: none;
+}
+
+
+
+.button-container {
+    position: absolute;
+    bottom: 50px;
+    right: 30;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+
+#reset,
+#new-btn {
+    position: relative;
+    padding: 8px;
+    margin: 3px;
+    font-size: 1.1rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    font-weight: 600;
+}
+
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
